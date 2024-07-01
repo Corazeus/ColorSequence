@@ -1,13 +1,16 @@
+body {
+  background-color: #282c34;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .App {
   text-align: center;
 }
 
-.yawa{
-  background-color: #000000;
-}
-
-.App-header {
-  background-color: #282c34;
+.main-container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,6 +20,44 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (min-width: 600px) {
+  button {
+    width: 100px;
+    height: 80px;
+  }
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.game-mechanics {
+  margin-top: 20px;
+  text-align: left;
+  font-size: small;
+}
+
+.game-mechanics h4 {
+  color: #21a0a0;
+}
+
+.game-mechanics span {
+  color: #ffffff;
+}
+
+.game-mechanics ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.game-mechanics li {
+  color: #ffffff;
 }
